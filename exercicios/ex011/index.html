@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprodução</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5.</p>
+   <audio preload="metadata" autoplay controls>
+    <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+    <p>Infelizmente seu navegador não consegue reproduzir áudios. <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
+
+   <h1>Reproduzindo vídeos</h1>
+   <p>Vamos aprender a reproduzir vídeos em HTML 5.</p>
+   <video width="560" poster="imagens/limoes-capa.png" muted autoplay controls>
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <p>Este navegador não consegue reproduzir vídeos.</p>
+   </video>
+
+   <h1>Inserindo vídeos do YouTube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/p69U6Ss39as?si=-nLIzQ_xGWt89AzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
