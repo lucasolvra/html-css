@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font-titulo: 'Passion One', sans-serif;
+    --font-texto: 'Sriracha', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    min-height: 30vh;
+    text-align: center;
+    padding-top: 32px;
+}
+
+header h1 {
+    color: white;
+    font-variant: small-caps;
+    font-family: var(--font-titulo);
+    font-size: 18vh;
+}
+
+header p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: auto;
+
+    a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 32px;
+    line-height: 6em;
+}
+
+.imagem {
+    width: 100vw;
+    aspect-ratio: 16 / 9;
+    background-color: darkgray;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img1 > p {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+section#img2 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    padding: 12px;
+}
+
+section#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    display: block;
+    font-family: var(--font-texto);
+    font-size: 3.5vw;
+    font-weight: normal;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+        text-align: center;
+    }
+}
