@@ -12,26 +12,33 @@
     margin: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header {
     background-color: black;
-    min-height: 30vh;
+    color: white;
+    /*min-height: 30vh;*/
     text-align: center;
-    padding-top: 32px;
+    /*padding-top: 32px;*/
 }
 
 header h1 {
-    color: white;
+    padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font-titulo);
-    font-size: 18vh;
+    font-size: 10vw;
 }
 
 header p {
-    color: white;
+    padding-bottom: 50px;
+    /*color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     font-weight: lighter;
-    margin: auto;
+    margin: auto;*/
 
     a {
         color: white;
@@ -48,7 +55,10 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 32px;
-    line-height: 6em;
+    line-height: 2em;
+
+    font-family: var(--font-texto);
+    font-size: 3.5vw;
 }
 
 .imagem {
@@ -94,18 +104,18 @@ section#img2 {
 
 p {
     display: block;
-    font-family: var(--font-texto);
-    font-size: 3.5vw;
-    font-weight: normal;
+    /*font-family: var(--font-texto);*/
+    /*font-size: 3.5vw;*/
+    /*font-weight: normal;*/
 }
 
 footer {
     background-color: black;
     color: white;
+    text-align: center;
     padding: 8px;
     p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1em;
-        text-align: center;
     }
 }
